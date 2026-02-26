@@ -56,7 +56,7 @@ bool load_settings(
     size_t ssid_size,
     char *password,
     size_t password_size,
-    bool *use_fahrenheit))
+    bool *use_fahrenheit)
 {
     Storage *storage = furi_record_open(RECORD_STORAGE);
     File *file = storage_file_alloc(storage);
